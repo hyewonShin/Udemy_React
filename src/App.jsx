@@ -1,4 +1,5 @@
 import reactImg from './assets/react-core-concepts.png';
+import componentsImge from './assets/components.png';
 
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
 
@@ -21,12 +22,28 @@ function Heder() {
   );
 }
 
+function CoreConcept({ title, description, imge }) {
+  return (
+    <li>
+      <img src={imge} alt="..." />
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </li>
+  );
+}
+
 function App() {
   return (
     <div>
       <Heder />
       <main>
-        <h2>Time to get started!</h2>
+        <sctoin id="core-concepts"></sctoin>
+        <h2>Core Concepts</h2>
+        <ul>
+          <CoreConcept title="merry" description="cute" imge={componentsImge} />
+          <CoreConcept title="merry" description="cute" imge={componentsImge} />
+          <CoreConcept title="merry" description="cute" imge={componentsImge} />
+        </ul>
       </main>
     </div>
   );

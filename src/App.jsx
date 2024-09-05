@@ -20,7 +20,10 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton>안녕하십니다람쥐</TabButton>
+            <TabButton>Componenets</TabButton>
+            <TabButton>JSX</TabButton>
+            <TabButton>Props</TabButton>
+            <TabButton>State</TabButton>
           </menu>
         </section>
       </main>
